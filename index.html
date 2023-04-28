@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="scripts/index.js"></script>
+
     <title>RPS</title>
 </head>
+<style>
+    .button {
+        border: none;
+        color: rgb(20, 47, 221);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+</style>
+
 <body>
-    
+
+    <div class="score"></div>
+    <button class="rock button" style="font-size: 100;">Rock</button>
+    <button class="paper button">Paper</button>
+    <button class="scissors button">Scissor</button>
+    <div class="result"></div>
 </body>
+<script src="scripts/index.js"></script>
+
 </html>
